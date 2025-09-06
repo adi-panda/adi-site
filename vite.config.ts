@@ -4,4 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), sveltekit()] as PluginOption[],
+  assetsInclude: ['**/*.txt'],
 });

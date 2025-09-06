@@ -31,6 +31,9 @@
 		]
 	},
 	"dependencies": {
+		"@fontsource-variable/inter": "^5.2.6",
+		"@fontsource-variable/montserrat": "^5.2.6",
+		"@fontsource-variable/source-serif-4": "^5.2.8",
 		"@tailwindcss/vite": "^4.1.12",
 		"mode-watcher": "^1.1.0",
 		"tailwindcss": "^4.1.12"
