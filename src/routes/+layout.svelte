@@ -9,8 +9,9 @@
 </script>
 
 <svelte:head>
+  <title>adi panda</title>
   <link rel="icon" href={favicon} />
 </svelte:head>
 
-<ModeWatcher defaultMode="light" />
+<ModeWatcher defaultMode="dark" />
 {@render children?.()}
