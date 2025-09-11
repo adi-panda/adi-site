@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/inter':
         specifier: ^5.2.6
         version: 5.2.6
+      '@fontsource-variable/manrope':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource-variable/montserrat':
         specifier: ^5.2.6
         version: 5.2.6
@@ -224,6 +227,9 @@ packages:
 
   '@fontsource-variable/inter@5.2.6':
     resolution: {integrity: sha512-jks/bficUPQ9nn7GvXvHtlQIPudW7Wx8CrlZoY8bhxgeobNxlQan8DclUJuYF2loYRrGpfrhCIZZspXYysiVGg==}
+
+  '@fontsource-variable/manrope@5.2.7':
+    resolution: {integrity: sha512-BIEjvyUBcd2dya41h/6XKh4Uof91VjwrcgGA6yYMiDbBLZkizEjKSBQXsavmBApNydHSuteBESv4MLF4y6PzuQ==}
 
   '@fontsource-variable/montserrat@5.2.6':
     resolution: {integrity: sha512-1eHefcz9ZXSMjZPckKCWSYd8rLjUpmzQIsNO8DuyU0IdPvsqletPvSIJmztr0sCU6sX4EFKsSHxJWawjmROp2A==}
@@ -936,6 +942,8 @@ snapshots:
     optional: true
 
   '@fontsource-variable/inter@5.2.6': {}
+
+  '@fontsource-variable/manrope@5.2.7': {}
 
   '@fontsource-variable/montserrat@5.2.6': {}
 

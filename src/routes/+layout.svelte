@@ -1,7 +1,7 @@
 <script lang="ts">
   import favicon from "$lib/assets/favicon.svg";
   import { ModeWatcher } from "mode-watcher";
-  import "@fontsource-variable/inter";
+  import "@fontsource-variable/manrope";
 
   let { children } = $props();
   import "../app.css";
