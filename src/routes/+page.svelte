@@ -1,9 +1,14 @@
 <script>
   import { Button } from "@/lib/components/ui/button";
-  import { SunIcon, MoonIcon } from "@lucide/svelte";
+  import { SunIcon, MoonIcon, MailIcon } from "@lucide/svelte";
   import { toggleMode } from "mode-watcher";
   import AsciiVideoPlayer from "@/lib/components/ASCIIVideoPlayer.svelte";
-  import { GithubIcon, TwitterIcon, LinkedinIcon } from "@lucide/svelte";
+  import {
+    GithubIcon,
+    TwitterIcon,
+    LinkedinIcon,
+    InboxIcon,
+  } from "@lucide/svelte";
 </script>
 
 <main
@@ -65,23 +70,30 @@
 
     <hr class="border-muted-foreground border-t w-full m-0 p-0" />
 
-    <div class="grid grid-cols-3 gap-2 w-full">
+    <div class="grid grid-cols-2 gap-2 w-full">
+      <Button
+        class="w-full"
+        variant="outline"
+        href="mailto:adityapanda@utexas.edu"
+      >
+        <MailIcon class="size-4" /> <span>Email</span>
+      </Button>
       <Button
         class="w-full"
         variant="outline"
         href="https://github.com/adi-panda"
       >
-        <GithubIcon /> <span class="hidden md:block">Github</span>
+        <GithubIcon /> <span>Github</span>
       </Button>
       <Button class="w-full" variant="outline" href="https://x.com/awdii_">
-        <TwitterIcon /> <span class="hidden md:block"> Twitter (X)</span>
+        <TwitterIcon /> <span>X (Twitter)</span>
       </Button>
       <Button
         class="w-full"
         variant="outline"
         href="https://www.linkedin.com/in/adipanda/"
       >
-        <LinkedinIcon /> <span class="hidden md:block">LinkedIn</span>
+        <LinkedinIcon /> <span>LinkedIn</span>
       </Button>
     </div>
   </div>
