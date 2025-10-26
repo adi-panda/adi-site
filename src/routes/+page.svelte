@@ -99,7 +99,7 @@
   </div>
 
   <div
-    class="slide-in-from-left lg:transform lg:translate-x-12 lg:-translate-y-8 pt-[3rem] w-[40rem] flex items-center justify-center"
+    class="slide-in-from-left lg:transform lg:translate-x-12 lg:-translate-y-6 pt-[3rem] w-[40rem] flex items-center justify-center"
   >
     <AsciiVideoPlayer />
   </div>
