@@ -70,7 +70,7 @@
 
     <hr class="border-muted-foreground border-t w-full m-0 p-0" />
 
-    <div class="flex w-full justify-between">
+    <div class="flex w-full flex-col lg:flex-row lg:justify-between">
       <span class="w-full">Feel free to reach out!</span>
       <a class="underline font-bold" href="mailto:adityapanda@utexas.edu">
         adityapanda@utexas.edu
