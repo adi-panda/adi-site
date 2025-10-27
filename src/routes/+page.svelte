@@ -30,10 +30,10 @@
   </Button>
 
   <div
-    class="flex flex-col items-start justify-center gap-8 px-8 xl:w-[35%] slide-in-from-right"
+    class="flex flex-col items-start justify-center gap-4 px-8 xl:w-[35%] slide-in-from-right"
   >
     <h1 class="text-lg pb-10">adi panda</h1>
-    <div class="flex flex-col gap-2 pb-4">
+    <div class="flex flex-col gap-2 pb-8">
       <!-- <img src={headshot} alt="Adi Panda" class="rounded-md w-[4rem]" /> -->
       <span class="text-xl text-foreground">
         👋 hey! i'm adi, an engineer @ <a
@@ -46,7 +46,7 @@
       </span>
     </div>
 
-    <ul class="text-md text-foreground list-disc ml-4 cursor-default">
+    <ul class="text-md text-foreground list-disc ml-4 pb-4 cursor-default">
       <li class="transition-all duration-200 ease-in-out hover:translate-x-2">
         built video datasets for leading AI labs at
         <a href="https://sievedata.com" class="underline">sieve</a>.
@@ -70,14 +70,13 @@
 
     <hr class="border-muted-foreground border-t w-full m-0 p-0" />
 
-    <div class="grid grid-cols-2 gap-2 w-full">
-      <Button
-        class="w-full"
-        variant="outline"
-        href="mailto:adityapanda@utexas.edu"
-      >
-        <MailIcon class="size-4" /> <span>Email</span>
-      </Button>
+    <div class="flex w-full justify-between">
+      <span class="w-full">Feel free to reach out!</span>
+      <a class="underline font-bold" href="mailto:adityapanda@utexas.edu">
+        adityapanda@utexas.edu
+      </a>
+    </div>
+    <div class="grid grid-cols-3 gap-2 w-full">
       <Button
         class="w-full"
         variant="outline"
